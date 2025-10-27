@@ -1,0 +1,38 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.btn-warning {
+  font-weight: bold;
+}
+
+/* Animação fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Aplica a animação aos cards */
+.card {
+  animation: fadeIn 0.5s ease forwards;
+  opacity: 0; /* Começa invisível, JS vai renderizar */
+}
