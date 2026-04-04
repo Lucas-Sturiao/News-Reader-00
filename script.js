@@ -1,5 +1,5 @@
-//const API_KEY = "13fab6a566a9b447b2672b88c753db56"; // está comentado porque a requisição é limitada.
-//const BASE_URL = `https://gnews.io/api/v4/top-headlines?lang=pt&country=br&apikey=${API_KEY}`;
+const API_KEY = "26b32ed477b6c9e6ee018f5de805bf8d"; // está comentado porque a requisição é limitada.
+const BASE_URL = `https://gnews.io/api/v4/search?q=Google&lang=en&max=5&apikey=${API_KEY}`;
 
 const newsContainer = document.getElementById("newsContainer");
 const categoryLinks = document.querySelectorAll(".category-link");
